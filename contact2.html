@@ -1,0 +1,115 @@
+<html>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+.background {
+background-image: url(food2.jpg);
+background-size:cover;
+}
+label {
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+      }
+    
+</style>
+
+<body>
+
+<div class="container">
+  <div  style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Dacă aveți întrebări sau idei noi, nu ezitați să îmi lăsați un mesaj:</p>
+  </div>
+  <div class="background">
+
+<table>
+      <form action="contact2.php" method="POST">
+	  <table align="center" width="80" height="600">
+	  
+	  <tr>
+	  <td>
+	  <table align="center" width="400" height="400">
+	  <tr>
+	  <td>
+        <label for="firstname">First Name</label>
+		</td>
+		<td>
+        <input type="text" id="firstname" name="firstname" placeholder="Your name..">
+		</td>
+		</tr>
+		<tr>
+		<td>
+        <label for="lastname">Last Name</label>
+		</td>
+		<td>
+        <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+		</td>
+		</tr>
+		<tr>
+		<td>
+        <label for="country">Country</label>
+		</td>
+		<td>
+        <select id="country" name="country">
+          <option value="austria">Austria</option>
+		  <option value="gb">Anglia</option>
+		  <option value="canada">Canada</option>
+		  <option value="cipru">Cipru</option>
+		  <option value="den">Danemarca</option>
+		  <option value="g">Germania</option>
+		  <option value="ned">Olanda</option>
+          <option value="moldova">Moldova</option>
+		  <option value="norvegia">Norvegia</option>
+          <option value="rusia">Rusia</option>
+		  <option value="ro">Romania</option>
+		  <option value="sb">Serbia</option>
+		  <option value="america">SUA</option>
+		  <option value="su">Suedia</option>
+
+
+        </select>
+		</td>
+		</tr>
+		<tr>
+		<td>
+        <label for="subject">Subject</label>
+		</td>
+		<td>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		</td>
+		<td>
+        <input type="submit" value="Submit">
+		</td>
+		</tr>
+		</table>
+		</td>
+		</tr>
+		</table>
+      </form>
+	  </table>
+	  
+    </div>
+	</div>
+
+<footer height="30">
+	<p>
+		Created with <i class="fa fa-heart"></i> by Ana-Maria Grigoras
+		- E-mail me
+		<a target="_blank" href="https://login.yahoo.com/?.src=ym&lang=ro-RO&done=https%3A%2F%2Fmail.yahoo.com%2F%3Fguce_referrer%3DaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8%26guce_referrer_sig%3DAQAAAJBUADSGx0iVcSZL09wvgC4CjLd_5R2SI0rQDbh3PzllhnuyCXkgOc4HAp2PYTbqpETuZH-Ho-1eINJ-Wslmtb057F9tJ39zR6dQWc0TN-4iIoDBqyslgdzJ7Eomgn1dFrPUmhd8_eqKJjwnaHy7_49kCrsz434WaeeqKLRN0Lnu">here</a>.
+	</p>
+</footer>
+</html>
+<button class=button-s onclick="goBack()">Go Back</button>
+<link rel="stylesheet" href="button.css">
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+

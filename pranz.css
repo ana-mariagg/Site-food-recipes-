@@ -1,0 +1,15 @@
+.pranz-col{float:left;width:100%}
+.pranz-padding-large{padding:12px 24px!important}
+.pranz-center
+.pranz-large{font-size:19px!important}
+.pranz-text-grey,.pranz-hover-text-grey:hover,.pranz-text-gray,.pranz-hover-text-gray:hover{color:#757575!important}
+.pranz-hide{display:none!important}
+.pranz-large2{font-size:27px!important}
+.pranz-large3{font-size:20px!important}
+.pranz-text-grey2,.pranz-hover-text-grey2:hover,.pranz-text-gray2,.pranz-hover-text-gray2:hover{font-family: Bookman Old Style; font-size:20px; color:#757575!important}
+.pranz-large4{font-family: Bookman Old Style;font-size:20px!important}
+.pranz-text-grey3,.pranz-hover-text-grey3:hover,.pranz-text-gray3,.pranz-hover-text-gray3:hover{font-size:19px; color:#757575!important}
+html, body {
+    max-width: 98%;
+}
+

@@ -1,0 +1,15 @@
+.cina-col{float:left;width:100%}
+.cina-padding-large{padding:12px 24px!important}
+.cina-center
+.cina-large{font-size:19px!important}
+.cina-text-grey,.cina-hover-text-grey:hover,.cina-text-gray,.cina-hover-text-gray:hover{color:#757575!important}
+.cina-hide{display:none!important}
+.cina-large2{font-size:27px!important}
+.cina-large3{font-size:20px!important}
+.cina-text-grey2,.cina-hover-text-grey2:hover,.cina-text-gray2,.cina-hover-text-gray2:hover{font-family: Bookman Old Style; font-size:20px; color:#757575!important}
+.cina-large4{font-family: Bookman Old Style;font-size:20px!important}
+.cina-text-grey3,.cina-hover-text-grey3:hover,.cina-text-gray3,.cina-hover-text-gray3:hover{font-size:19px; color:#757575!important}
+html, body {
+    max-width: 98%;
+}
+

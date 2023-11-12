@@ -1,0 +1,39 @@
+.vertical-menu {
+  width: 200px; 
+}
+
+.vertical-menu a {
+  background-color: #FF A5 00; 
+  color: black; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none; 
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; 
+}
+
+.vertical-menu a.active {
+  background-color: #808080; 
+  color: white;
+}
+.meniu-display-container{position:relative} 
+.meniu-display-container:hover 
+.meniu-content{margin-left:auto;margin-right:auto}.meniu-content{max-width:980px}
+.meniu-content{margin-left:auto;margin-right:auto}.meniu-content{max-width:980px}
+.meniu-wide{letter-spacing:4px}
+.meniu-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.meniu-display-bottomleft{position:absolute;left:0;bottom:0}
+.meniu-padding{padding:8px 16px!important}.meniu-padding-large{padding:12px 24px!important}
+.meniu-opacity,.meniu-hover-opacity:hover{opacity:0.60}
+.meniu-opacity-min{opacity:0.75}
+.meniu-col{float:left;width:100%}
+.meniu-padding-large{padding:12px 24px!important}
+.meniu-center
+.meniu-large{font-size:18px!important}
+.meniu-text-grey,.meniu-hover-text-grey:hover,.meniu-text-gray,.meniu-hover-text-gray:hover{color:#757575!important}
+.meniu-hide{display:none!important}
+html, body {
+    max-width: 98%;
+}
